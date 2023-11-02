@@ -6,4 +6,17 @@ h1{
     text-align: center;
     background-color: brown;
     color: aliceblue;
+    width:40%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+p{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.links{
+    background-color: darkcyan;
+    color:azure;
+
 }
