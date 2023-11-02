@@ -1,11 +1,12 @@
 body{
-    background-color: beige;
+    background-color: rgb(198, 222, 195);
 }
 
 h1{
     text-align: center;
-    background-color: brown;
+    background-color: rgb(78, 113, 75);
     color: aliceblue;
+    border-radius: 15%;
     width:40%;
     font-family:'Courier New', Courier, monospace;
 }
@@ -15,8 +16,8 @@ p{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.links{
-    background-color: darkcyan;
-    color:azure;
-
+a{
+    background-color: cadetblue;
+    color: rgb(255, 255, 255);
+    
 }
