@@ -21,3 +21,9 @@ a{
     color: rgb(255, 255, 255);
     
 }
+img {
+    max-width:64px;
+    max-height:64px;
+    width:auto;
+    height:auto;
+}
