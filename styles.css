@@ -23,7 +23,7 @@ body{
     border: none;
 }
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 0;
 }
 
 ::-webkit-scrollbar-track {
@@ -83,12 +83,15 @@ body{
 .projects{
     background-color: #9fb39f;
     height: auto;
+    justify-content:center;
+
 }
 
 .about{
+    padding-top:50px;
     display: inline-block;
     justify-content: center;
-    height: 600px;
+    height: 100vh;
     position: relative; 
     width: 100%;
 }
@@ -180,7 +183,7 @@ body{
 
 .div-head{
     padding: 2rem;
-    font-size:40px;
+    font-size:45px;
     text-align: center;
     background-color: transparent;
 }
@@ -188,26 +191,31 @@ body{
 .grid-container {
     background-color: transparent;
     margin:3rem;
-    display: grid;
+    display: flex;
     justify-content:center;
+    flex-wrap:wrap;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(auto-fill, 250px);
   }
 
 .grid-item{
+    justify-content:center;
+
     padding: 1rem;
     background-color:#754c4c;
     color: white;
     text-align: center;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border:none;
 }
 
 .project{
     border:none;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    justify-content:center;
+
+    width: 250px;
     text-decoration: none;
     background-color: transparent;
     color: white;
