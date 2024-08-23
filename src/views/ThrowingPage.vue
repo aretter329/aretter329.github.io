@@ -2,6 +2,9 @@
 <script setup> 
 import TrackArticles from '@/components/TrackArticles.vue';
 import PictureFrame from '@/components/PictureFrame.vue';
+import BigEast from '@/assets/bigeast.webp';
+import CentennialChamp from '@/assets/centennial.jpeg';
+import NationalChamp from '@/assets/nationals.webp';
 </script> 
 
 <template>
@@ -23,17 +26,17 @@ import PictureFrame from '@/components/PictureFrame.vue';
     <div class="gallery">
 
       <PictureFrame 
-          href="https://pbs.twimg.com/media/FMpAb2UXIAENYm_?format=jpg&name=4096x4096"
+          :href="CentennialChamp"
           caption="Centennial Conference Shot Put & Weight Throw Champion"
           class='photo'
       />
       <PictureFrame
-        href="https://swarthmoreathletics.com/images/2023/5/25/adria_championship.png?width=1534&quality=80&format=jpg"
+        :href="NationalChamp"
         caption="NCAA DIII Discus Champion"
         class='photo'
       />
       <PictureFrame
-        href="https://images.sidearmdev.com/convert?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fvillanova.com%2Fimages%2F2024%2F5%2F21%2F2024-05-11BigEastT_FDay3_2299.jpg&type=webp"
+        :href="BigEast"
         caption="Big East Discus Champion"
         class='photo'
       />
@@ -70,7 +73,7 @@ a {
   display: inline-flex; 
   align-items: center; 
   text-decoration: none; 
-  font-size: 20px;
+  font-size: 24px;
   color: var(--blue);
   transition: color 0.3s ease, background-color 0.3s ease;
   padding-left: 10px;

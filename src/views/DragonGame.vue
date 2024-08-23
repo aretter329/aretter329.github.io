@@ -38,6 +38,7 @@
   const monsterStatsVisible = ref(false);
   const monsterName = ref("");
   const monsterHealthText = ref("");
+  const text = ref("");
   
   const weapons = [
     { name: 'stick', power: 5 },
@@ -244,11 +245,12 @@ body {
 }
 
 #game {
+
   max-width: 500px;
   max-height: 400px;
   background-color: #ffffff;
   color: #000000;
-  margin: 30px auto 0px;
+  margin: 200px auto 0px;
   padding: 10px;
 }
 

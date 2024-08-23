@@ -16,6 +16,13 @@
           />
       </a>
 
+      <a href="https://aretter329.github.io/niche-artist-finder/" target="_blank">
+          <PictureFrame
+          :href="spotifyImage"
+          caption="Spotify Niche Artist Finder (Currently waiting on Spotify's approval for extended rate limits)"
+          />
+      </a>
+
       <router-link to="projects/game">
         <PictureFrame
           :href="dragonImage"
@@ -36,6 +43,7 @@ import { ref } from 'vue';
 import codePenImage from '@/assets/codepen.png';
 import golImage from '@/assets/gol.png';
 import dragonImage from '@/assets/dragongame.png';
+import spotifyImage from '@/assets/spotify.png';
 
 const pdfUrl = new URL('@/assets/retter_srcomp.pdf', import.meta.url).href;
 const htmlContent = ref('');

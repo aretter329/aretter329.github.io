@@ -3,6 +3,7 @@ import HomePage from '../views/HomePage.vue'; // Import your components
 import ProjectPage from '../views/ProjectPage.vue';
 import ThrowingPage from '../views/ThrowingPage.vue';
 import DragonGame from '../views/DragonGame.vue';
+
 const routes = [
   {
     path: '/',
