@@ -36,6 +36,8 @@
   display: flex;
   justify-content: center; 
   padding: 0 20px; 
+  
+  box-sizing: border-box;
 }
 
 .navbar-container {
@@ -51,10 +53,12 @@
   display: flex;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .navbar-menu li {
   margin-left: 20px; 
+  padding-top: 10px;
 }
 
 .navbar-menu a {
